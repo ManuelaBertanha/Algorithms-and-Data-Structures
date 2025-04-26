@@ -15,8 +15,7 @@ def insertion_sort(sequence, n):
 
 
 def main():
-    sequence = [7, 2, 9, 1, 5, 0, 8, 4, 6, 3, 9, 0]
-    sequence = ["a", "c", "b", "casa", "cebola", "amor"]
+    sequence = [7, 2, 9, 1, 5, 0, 8, 4, 6, 3, 9, 0, 11, 125, 13, 2, 500]
     insertion_sort(sequence, len(sequence))
 
     print(sequence)
